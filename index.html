@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matemáticas para niños de primaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="logo">
+      <h1>MatematicasPRE</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#areas-tematicas">Áreas Temáticas</a></li>
+        <li><a href="#metodologia">Metodología</a></li>
+        <li><a href="#ejercicios">Ejercicios</a></li>
+        <li><a href="#registro">Recursos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="hero" id="inicio">
+    <div class="hero-text">
+      <h2>Matemáticas para niños de primaria</h2>
+      <p>Practica y aprende matemáticas de una manera divertida.</p>
+      <a href="#registro" class="btn">Comenzar ahora</a>
+    </div>
+    <div class="hero-img">
+      <img src="img/oip.webp" alt="Estudiantes aprendiendo">
+    </div>
+  </section>
+
+
+  <section class="areas-tematicas" id="areas-tematicas">
+    <h3>Áreas temáticas</h3>
+    <div class="ahero"></div>
+    <div class="cards">
+      <div class="card">
+        <img src="img/aeiou.png" alt="1 y 2 de primaria">
+        <p>1 y 2 de primaria</p>
+        <a href="#ejercicios">Ver ejercicios</a>
+      </div>
+      <div class="card">
+        <img src="img/aeiou.png" alt="3 de primaria">
+        <p>3 de primaria</p>
+        <a href="#ejercicios">Ver ejercicios</a>
+      </div>
+      <div class="card">
+        <img src="img/aeiou.png" alt="4 de primaria">
+        <p>4 de primaria</p>
+        <a href="#ejercicios">Ver ejercicios</a>
+      </div>
+      <div class="card">
+        <img src="img/aeiou.png" alt="5 de primaria">
+        <p>5 de primaria</p>
+        <a href="#ejercicios">Ver ejercicios</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="metodologia" id="metodologia">
+    <h3>Nuestra metodología</h3>
+    <div class="ahero"></div>
+    <div class="metodologia-cards">
+      <div class="metodologia-card">
+        <h4>1.- Teoría Clara</h4>
+        <p>Explicación detallada y ejemplos claros para cada tema.</p>
+      </div>
+      <div class="metodologia-card">
+        <h4>2.- Práctica Guiada</h4>
+        <p>Ejercicios explicados paso a paso con apoyo visual.</p>
+      </div>
+      <div class="metodologia-card">
+        <h4>3.- Ejercicios</h4>
+        <p>Más de 5000 ejercicios prácticos para aprender.</p>
+      </div>
+      <div class="metodologia-card">
+        <h4>4.- Evaluación</h4>
+        <p>Pruebas de evaluación para medir tus progresos.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ejercicios" id="ejercicios">
+    <h3>Ejercicios de Matemáticas</h3>
+
+
+    <div class="grade-exercises" id="grade1">
+      <h4>Ejercicios 1° y 2° de primaria</h4>
+      <div class="exercise">
+        <p>1. ¿Cuánto es 2 + 3?</p>
+        <input type="number" id="exercise1">
+      </div>
+      <div class="exercise">
+        <p>2. ¿Cuánto es 5 - 1?</p>
+        <input type="number" id="exercise2">
+      </div>
+    </div>
+
+
+    <div class="grade-exercises" id="grade2">
+      <h4>Ejercicios 3° de primaria</h4>
+      <div class="exercise">
+        <p>1. ¿Cuánto es 3 + 4?</p>
+        <input type="number" id="exercise1">
+      </div>
+      <div class="exercise">
+        <p>2. ¿Cuánto es 7 - 3?</p>
+        <input type="number" id="exercise2">
+      </div>
+    </div>
+
+
+    <div class="grade-exercises" id="grade3">
+      <h4>Ejercicios 4° de primaria</h4>
+      <div class="exercise">
+        <p>1. ¿Cuánto es 6 x 4?</p>
+        <input type="number" id="exercise1">
+      </div>
+      <div class="exercise">
+        <p>2. ¿Cuánto es 9 ÷ 3?</p>
+        <input type="number" id="exercise2">
+      </div>
+    </div>
+
+
+    <div class="grade-exercises" id="grade4">
+      <h4>Ejercicios 5° de primaria</h4>
+      <div class="exercise">
+        <p>1. ¿Cuánto es 12 x 2?</p>
+        <input type="number" id="exercise1">
+      </div>
+      <div class="exercise">
+        <p>2. ¿Cuánto es 20 ÷ 4?</p>
+        <input type="number" id="exercise2">
+      </div>
+    </div>
+
+    <button>Comprobar respuestas</button>
+    <p id="exerciseMessage"></p>
+  </section>
+
+
+  <section class="registro" id="registro">
+    <h3>¿Listo para comenzar tu preparación?</h3>
+    <form id="registrationForm">
+      <input type="email" id="email" placeholder="Tu correo electrónico" required>
+      <button type="submit">Registrarme</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>Email: contacto@matematicaspre.com</p>
+        <p>Tel: 123-456-7890</p>
+      </div>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

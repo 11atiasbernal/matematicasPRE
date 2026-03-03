@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #2d80f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e62b6;
+  color: white;
+  padding: 40px;
+}
+
+.ahero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+}
+
+.hero-text p {
+  font-size: 18px;
+}
+
+.hero-img img {
+  width: 400px;
+  height: auto;
+}
+
+.hero .btn {
+  background-color: #e56b19;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.areas-tematicas {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card a {
+  display: block;
+  margin-top: 10px;
+  color: #2d80f0;
+  text-decoration: none;
+}
+
+
+.ejercicios {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.grade-exercises {
+  margin-bottom: 40px;
+}
+
+.exercise {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #e56b19;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.metodologia {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.metodologia-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.metodologia-card {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metodologia-card h4 {
+  font-size: 18px;
+}
+
+
+.registro {
+  background-color: #1e62b6;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.registro form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.registro input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.registro button {
+  background-color: #e56b19;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
